@@ -1,7 +1,8 @@
 # Vectors
-An array $x$ of $n$ real numbers $x_1,x_2,...,x_n$ is called a $vector$, and is written as[^applied-multi-stat]
+An array $x$ of $n$ real numbers $x_1,x_2,...,x_n$ is called a **vector**, and is written as[^applied-multi-stat]
+
 $$\mathbf{x}=\begin{bmatrix}x_1 \\ x_2 \\ ... \\ x_n\end{bmatrix}
-\text{or}\ 
+\quad\text{or}\quad
 \mathbf{x}'=\begin{bmatrix}x_1,x_2,...,x_n\end{bmatrix}
 $$
 

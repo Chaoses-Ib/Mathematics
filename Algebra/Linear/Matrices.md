@@ -7,7 +7,8 @@ a_{21} & a_{22} & \cdots & a_{2n} \\
 \vdots & \vdots & \ddots & \vdots \\
 a_{m1} & a_{m2} & \cdots & a_{mn} \\
 \end{bmatrix}$$
-A matrix with $m$ rows and $n$ columns is reffered to as a "$m$ by $n$ matrix", a "$m\times n$-matrix", or a matrix of dimension $m\times n$.[^matrix-wiki]
+
+A matrix with $m$ rows and $n$ columns is reffered to as a " $m$ by $n$ matrix", a " $m\times n$-matrix", or a matrix of dimension $m\times n$.[^matrix-wiki]
 
 [^matrix-wiki]: [Matrix (mathematics) - Wikipedia](https://en.wikipedia.org/wiki/Matrix_(mathematics))
 
@@ -30,17 +31,19 @@ $$\mathbf{A}=\begin{bmatrix}
 \end{bmatrix}$$
 
 the *matrix product* $\mathbf{C}=\mathbf{A}\mathbf{B}$ is defined to be the $m\times p$ matrix
+
 $$\mathbf{C}=\begin{bmatrix}
  c_{11} & c_{12} & \cdots & c_{1p} \\
  c_{21} & c_{22} & \cdots & c_{2p} \\
 \vdots & \vdots & \ddots & \vdots \\
  c_{m1} & c_{m2} & \cdots & c_{mp} \\
 \end{bmatrix}$$
+
 such that
 $$c_{ij} = a_{i1}b_{1j} + a_{i2}b_{2j} +\cdots + a_{in}b_{nj}= \sum_{k=1}^n a_{ik}b_{kj},$$
 for $i=1,\cdots,m$ and $j=1,\cdots,p$.
 
-That is, the entry $c_{ij}$ of the product is obtained by multiplying term-by-term the entries of the $i$th row of $\mathbf{A}$ and the $j$th column of $\mathbf{B}$, and summing these $n$ products. In other words, $c_{ij}$ is the dot product of the $i$th row of $\mathbf{A}$ and the $j$th column of $\mathbf{B}$.[^mul-wiki]
+That is, the entry $c_{ij}$ of the product is obtained by multiplying term-by-term the entries of the $i$ th row of $\mathbf{A}$ and the $j$ th column of $\mathbf{B}$, and summing these $n$ products. In other words, $c_{ij}$ is the dot product of the $i$ th row of $\mathbf{A}$ and the $j$ th column of $\mathbf{B}$.[^mul-wiki]
 
 [^mul-wiki]: [Matrix multiplication - Wikipedia](https://en.wikipedia.org/wiki/Matrix_multiplication)
 [^applied-multi-stat]: *Applied Multivariate Statistical Analysis*
