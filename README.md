@@ -11,3 +11,5 @@
 
 ## Statistics
 ### [Multivariate Statistics](Statistics/Multivariate/README.md)
+- [Random Vectors and Matrices](Statistics/Multivariate/Random%20Vectors%20and%20Matrices.md)
+- [Multivariate Normal Distribution](Statistics/Multivariate/Multivariate%20Normal%20Distribution.md)
