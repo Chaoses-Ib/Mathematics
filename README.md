@@ -1,5 +1,8 @@
 # Mathematics
 ## Algebra
+### Abstract
+- [Binary Operations](Algebra/Abstract/Binary%20Operations.md)
+
 ### Linear
 - [Vectors](Algebra/Linear/Vectors.md)
 - [Matrices](Algebra/Linear/Matrices.md)

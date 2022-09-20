@@ -45,6 +45,11 @@ for $i=1,\cdots,m$ and $j=1,\cdots,p$.
 
 That is, the entry $c_{ij}$ of the product is obtained by multiplying term-by-term the entries of the $i$ th row of $\mathbf{A}$ and the $j$ th column of $\mathbf{B}$, and summing these $n$ products. In other words, $c_{ij}$ is the dot product of the $i$ th row of $\mathbf{A}$ and the $j$ th column of $\mathbf{B}$.[^mul-wiki]
 
+Properties:
+- ~~Commutative~~
+- Associative: $(\mathbf{A}\mathbf{B})\mathbf{C}=\mathbf{A}(\mathbf{B}\mathbf{C})$
+- Distributive: $\mathbf{A}(\mathbf{B}+\mathbf{C})=\mathbf{A}\mathbf{B}+\mathbf{A}\mathbf{C}$ and $(\mathbf{B}+\mathbf{C})\mathbf{A}=\mathbf{B}\mathbf{A}+\mathbf{C}\mathbf{A}$
+
 [^mul-wiki]: [Matrix multiplication - Wikipedia](https://en.wikipedia.org/wiki/Matrix_multiplication)
 [^applied-multi-stat]: *Applied Multivariate Statistical Analysis*
 
