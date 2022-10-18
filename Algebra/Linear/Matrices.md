@@ -12,6 +12,40 @@ A matrix with $m$ rows and $n$ columns is reffered to as a " $m$ by $n$ matrix",
 
 [^matrix-wiki]: [Matrix (mathematics) - Wikipedia](https://en.wikipedia.org/wiki/Matrix_(mathematics))
 
+## Matrix norm
+Given a filed $K$ of either real or complex numbers, let $K^{m\times n}$ be the $K$-vector space of matrices with $m$ rows and $n$ columns and entries in the field $K$. Suppose a vector norm $||\cdot||\_\alpha$ on $K^n$ and a vector norm $||\cdot||\_\beta$ on $K_m$ are given. Any $m\times n$ matrix $A$ induces a linear operator from $K^n$ to $K^m$ with respect to the standard basis, and one defines the corresponding induced norm (operator norm, subordinate norm) on the space $K^{m\times n}$ of all $m\times n$ matrices as follows:
+
+$$
+\begin{aligned}
+||A||_{\alpha ,\beta }
+&=\sup \{||Ax||_{\beta }:x\in K^{n}{\text{ with }}||x||_\alpha=1\}\\
+&=\sup \{{\frac {||Ax||_{\beta }}{||x||_{\alpha }}}:x\in K^{n}{\text{ with }}x\neq 0\}
+\end{aligned}$$
+
+where $\sup$ denotes the supremum. This norm measures how much the mapping induced by $A$ can stretch vectors. Depending on the vector norms $||\cdot||\_{\alpha}$, $||\cdot||\_{\beta}$ used, notation other than $||\cdot ||\_{\alpha ,\beta}$ can be used for the operator norm.[^norm-wiki]
+
+If the $p$-norm for vectors is used for both spaces $K^n$ and $K^m$, then the corresponding operator norm is:
+
+$$||\mathbf A|| = \sup_{x\ne 0} { ||\mathbf A x||_p \over ||x||_p }$$
+
+- $p=1$:
+  
+  $$||A||_{1}=\max _{1\leq j\leq n}\sum _{i=1}^{m}|a_{ij}|$$
+
+  which is simply the maximum absolute column sum of the matrix.
+- $p=\infty$:
+
+  $$||A||_{\infty }=\max _{1\leq i\leq m}\sum _{j=1}^{n}|a_{ij}|$$
+  
+  which is simply the maximum absolute row sum of the matrix.
+- $p=2$:
+
+  In the special case of $p=2$, the induced matrix norm is the spectral norm. The spectral norm of a matrix $A$ is the largest singular value of $A$ (i.e., the square root of the largest eigenvalue of the matrix $A^* A$, where $A^*$ denotes the conjugate transpose of $A$):
+
+  $$||A||_{2}={\sqrt {\lambda _{\max }\left(A^{*}A\right)}}=\sigma _{\max }(A)$$
+
+  where $\sigma _{\max }(A)$ represents the largest singular value of matrix $A$.
+
 ## Matrix multiplication
 ![](images/Matrix-Multiplication.png)[^applied-multi-stat]
 
@@ -70,3 +104,5 @@ $$c_1\mathbf{a_1}+c_2\mathbf{a_2}+\cdots+c_k\mathbf{a_k}=0 \text{ only if }c_1=\
 $$\mathbf{Q}\mathbf{Q}'=\mathbf{Q'}\mathbf{Q}=\mathbf{I}
 \quad\text{or}\quad
 \mathbf{Q}'=\mathbf{Q}^{-1}$$
+
+[^norm-wiki]: [Matrix norm - Wikipedia](https://en.wikipedia.org/wiki/Matrix_norm)
