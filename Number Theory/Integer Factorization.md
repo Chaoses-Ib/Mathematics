@@ -1,0 +1,2 @@
+# Integer Factorization
+**Integer factorization** is the decomposition of a composite number into a product of smaller integers. If there factors are further restricted to prime numbers, the process is called **prime factorization**.

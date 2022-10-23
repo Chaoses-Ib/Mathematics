@@ -1,4 +1,8 @@
 # Mathematics
+## Number Theory
+- [Integer Factorization](Number%20Theory/Integer%20Factorization.md)
+- [Greatest Common Divisor](Number%20Theory/Greatest%20Common%20Divisor.md)
+
 ## Algebra
 ### Abstract
 - [Binary Operations](Algebra/Abstract/Binary%20Operations.md)
