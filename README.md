@@ -2,6 +2,7 @@
 ## Number Theory
 - [Integer Factorization](Number%20Theory/Integer%20Factorization.md)
 - [Greatest Common Divisor](Number%20Theory/Greatest%20Common%20Divisor.md)
+- [Euler's Theorem](Number%20Theory/Euler's%20Theorem.md)
 
 ## Algebra
 ### Abstract
