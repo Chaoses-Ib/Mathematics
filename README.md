@@ -11,6 +11,7 @@
 ### [Linear](Algebra/Linear/README.md)
 - [Vectors](Algebra/Linear/Vectors.md)
 - [Matrices](Algebra/Linear/Matrices.md)
+- [System of Linear Equations](Algebra/Linear/System%20of%20Linear%20Equations.md)
 - [Eigenvalues and Eigenvectors](Algebra/Linear/Eigenvalues%20and%20Eigenvectors.md)
 
 ## Analysis
