@@ -3,6 +3,7 @@ A **fixed point** of a function is an element that is mapped to itself by the fu
 
 ## Banach fixed-point theorem
 **Banach fixed-point theorem (contraction mapping theorem, 巴拿赫不动点定理, 压缩映射定理)**
+
 ![](images/Fixed-Points-1.png) ![](images/Fixed-Points-2.png)
 
 Assume that $g\in C[a,b]$.
