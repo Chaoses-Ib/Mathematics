@@ -71,4 +71,32 @@ def gcd(a, b):
 
 $$\exists p,q\in Z,\quad\gcd(a,b)=p\cdot a + q\cdot b \quad$$
 
+## Extended Euclidean algorithm
+The **extended Euclidean algorithm** is an extension to the Eculidean algorithm. It computes the greatest common divisor and the coefficients of Bézout's identity of two integers.
+
+For example, if we want to solve $p$ and $q$ in
+$$26p+15q=1$$
+where $p,q\in Z$.
+
+We may first do some Euclidean division:
+
+$$\begin{align}
+\overline{26}&=1\times \overline{\underline{15}}+\underline{11} \\
+\overline{15}&=1\times \overline{\underline{11}}+\underline{4} \\
+\overline{11}&=2\times \overline{\underline{4}}+\underline{3} \\
+\overline{4}&=1\times \overline{\underline{3}}+\underline{1} \\
+\overline{1}&=1\times \overline{1}
+\end{align}$$
+
+then
+
+![](images/Extended.png)
+
+$$\begin{align}
+1&=4-1\times 3 \\
+&=[15-1\times (26-1\times 15)]-1\times[26-1\times 15 - 2\times (15 - 1\times (26-1\times 15))] \\
+&= -4\times 26 + 7\times 15
+\end{align}$$
+
+
 [^wiki]: [Greatest common divisor - Wikipedia](https://en.wikipedia.org/wiki/Greatest_common_divisor#Calculation)
