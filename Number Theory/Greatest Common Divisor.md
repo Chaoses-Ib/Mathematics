@@ -85,7 +85,7 @@ $$\begin{align}
 \overline{15}&=1\times \overline{\underline{11}}+\underline{4} \\
 \overline{11}&=2\times \overline{\underline{4}}+\underline{3} \\
 \overline{4}&=1\times \overline{\underline{3}}+\underline{1} \\
-\overline{1}&=1\times \overline{1}
+\overline{3}&=3\times \overline{1}
 \end{align}$$
 
 then
