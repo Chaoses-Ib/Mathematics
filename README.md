@@ -17,6 +17,7 @@
 ## Analysis
 - Functions
   - [Fixed Points](Analysis/Functions/Fixed%20Points.md)
+- [Directional Derivatives and Gradients](Analysis/Directional%20Derivatives%20and%20Gradients.md)
 
 ## Toplogy
 - [Metric Space](Topology/Metric%20Space.md)
