@@ -13,6 +13,7 @@
 - [Matrices](Algebra/Linear/Matrices.md)
 - [System of Linear Equations](Algebra/Linear/System%20of%20Linear%20Equations.md)
 - [Eigenvalues and Eigenvectors](Algebra/Linear/Eigenvalues%20and%20Eigenvectors.md)
+- [Matrix Calculus](Algebra/Linear/Matrix%20Calculus.md)
 
 ## Analysis
 - Functions
