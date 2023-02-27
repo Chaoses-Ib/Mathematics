@@ -18,6 +18,7 @@
 ## Analysis
 - Functions
   - [Fixed Points](Analysis/Functions/Fixed%20Points.md)
+  - [Logistic Function](Analysis/Functions/Logistic%20Function.md)
 - [Directional Derivatives and Gradients](Analysis/Directional%20Derivatives%20and%20Gradients.md)
 
 ## Toplogy
