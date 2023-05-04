@@ -1,4 +1,12 @@
-# Mathematics
+# [Mathematics](Mathematics.md)
+## [Logic](Logic/README.md)
+- [Propositional Logic](Logic/Propositional%20Logic.md)
+- [First-order Logic](Logic/First-order%20Logic.md)
+- [Second-order Logic](Logic/Second-order%20Logic.md)
+- [Higher-order Logic](Logic/Higher-order%20Logic.md)
+- Set Theory
+- [→Formal Languages](https://github.com/Chaoses-Ib/FormalLanguages)
+
 ## Number Theory
 - [Integer Factorization](Number%20Theory/Integer%20Factorization.md)
 - [Greatest Common Divisor](Number%20Theory/Greatest%20Common%20Divisor.md)
@@ -22,5 +30,13 @@
   - [Logistic Function](Analysis/Functions/Logistic%20Function.md)
 - [Directional Derivatives and Gradients](Analysis/Directional%20Derivatives%20and%20Gradients.md)
 
+## Geometry
+
 ## Toplogy
 - [Metric Space](Topology/Metric%20Space.md)
+
+## [→Computational Mathematics](https://github.com/Chaoses-Ib/ComputationalMathematics)
+
+## Applied Mathematics
+- [→Statistics](https://github.com/Chaoses-Ib/Statistics)
+- [→Operations Research](https://github.com/Chaoses-Ib/Economics#operations-research)

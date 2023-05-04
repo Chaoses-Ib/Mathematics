@@ -1,0 +1,4 @@
+# First-order Logic
+[Wikipedia](https://en.wikipedia.org/wiki/First-order_logic)
+
+**First-order logic (predicate logic, quantificational logic, and first-order predicate calculus)** is a collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects, and allows the use of sentences that contain variables, so that rather than propositions such as "Socrates is a man", one can have expressions in the form "there exists x such that x is Socrates and x is a man", where "there exists" is a quantifier, while x is a variable. This distinguishes it from propositional logic, which does not use quantifiers or relations; in this sense, propositional logic is the foundation of first-order logic.
