@@ -4,9 +4,10 @@
   - [Rules of Inference](Logic/Propositional/Rules%20of%20Inference.md)
   - [Conjunctive Normal Form](Logic/Propositional/Conjunctive%20Normal%20Form.md)
   - [Horn Clause](Logic/Propositional/Horn%20Clause.md)
-- [First-order Logic](Logic/First-order%20Logic.md)
-- [Second-order Logic](Logic/Second-order%20Logic.md)
-- [Higher-order Logic](Logic/Higher-order%20Logic.md)
+- [First-order Logic](Logic/First-order/README.md)
+  - [Rules of Inference](Logic/First-order/Rules%20of%20Inference.md)
+- [Second-order Logic](Logic/Second-order/README.md)
+- [Higher-order Logic](Logic/Higher-order/README.md)
 - [Entailment](Logic/Entailment.md)
 - Set Theory
 - [→Formal Languages](https://github.com/Chaoses-Ib/FormalLanguages)

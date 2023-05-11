@@ -12,5 +12,14 @@ Converting to CNF[^ai-modern]:
    - ¬(α ∨ β) ≡ (¬α ∧ ¬β)  (De Morgan)
 4. Now we have a sentence containing nested ∧ and ∨ operators applied to literals. We apply the distributivity law, distributing ∨ over ∧ wherever possible.
 
+## First-order logic
+1. 等价消去
+2. 隐含消去
+3. 否定深入
+4. +变量换名
+5. +量词前移
+6. +量词消去
+7. 分配律
+
 
 [^ai-modern]: Russell, Stuart J. _Artificial Intelligence a Modern Approach_. Pearson Education, Inc., 2010.
